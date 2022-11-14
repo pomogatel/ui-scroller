@@ -1,0 +1,30 @@
+{
+    "name": "@mobiscroll/angular",
+    "version": "4.10.10",
+    "description": "Angular UI library for progressive web and hybrid apps",
+    "homepage": "https://pomogatel.ru/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/koulievru/mobiscroll"
+    },
+    "main": "dist/bundles/mobiscroll.angular.min.js",
+    "module": "dist/esm5/mobiscroll.angular.min.js",
+    "types": "dist/mobiscroll.angular.min.d.ts",
+    "style": "dist/css/mobiscroll.min.css",
+    "files": [
+        "dist/mobiscroll.angular.min.d.ts",
+        "dist/mobiscroll.angular.min.metadata.json",
+        "dist/bundles/mobiscroll.angular.min.js",
+        "dist/esm5/mobiscroll.angular.min.js",
+        "dist/css/mobiscroll.scss",
+        "dist/css/mobiscroll.min.css",
+        "dist/css/icons_mobiscroll.ttf",
+        "dist/css/icons_mobiscroll.woff",
+        "src/**"
+    ],
+    "peerDependencies": {
+        "@angular/core": ">=2.0.0",
+        "@angular/common": ">=2.0.0",
+        "@angular/forms": ">=2.0.0"
+    }
+}
